@@ -1,10 +1,11 @@
 # pdfQuery_Langchain
-# Querying PDF With Astra and LangChain
-# Pre-requisites:
-# You need a Serverless Cassandra with Vector Search database on Astra DB to run this demo. As outlined in more detail here, you should get a DB Token with role Database Administrator and copy your Database ID: these connection parameters are needed momentarily.
 
-# You also need an OpenAI API Key for this demo to work.
+# Pre-requisites: 
+To run this notebook, you need a Serverless Cassandra with a Vector Search database on [Astra DB](https://accounts.datastax.com/session-service/v1/login). As outlined in more detail [here](https://docs.datastax.com/en/astra-db-serverless/get-started/quickstart.html#_prepare_for_using_your_vector_database), you should get a DB Token with the role Database Administrator and copy your Database ID. These connection parameters are needed momentarily.
 
-# What you will do:
-# Setup: import dependencies, provide secrets, create the LangChain vector store;
-# Run a Question-Answering loop retrieving the relevant headlines and having an LLM construct the answer.
+You also need an [OpenAI API Key](https://cassio.org/start_here/#astra-db) for this notebook to work.
+
+# Setup: 
+import dependencies, provide secrets, create the LangChain vector store;
+
+Run the notebook to retrieve the relevant headlines and have an LLM construct the answer.
